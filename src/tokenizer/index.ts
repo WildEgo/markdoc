@@ -5,7 +5,7 @@ import comments from './plugins/comments';
 import type Token from 'markdown-it/lib/token';
 
 export default class Tokenizer {
-  private parser: MarkdownIt;
+  public parser: MarkdownIt;
 
   constructor(
     config: MarkdownIt.Options & {
